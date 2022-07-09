@@ -1,0 +1,805 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&family=Pacifico&family=Raleway:wght@200;300;400;500&family=Source+Sans+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&family=Pacifico&family=Raleway:wght@200;300;400;500&family=Rubik:wght@600;900&family=Source+Sans+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Open+Sans:wght@400;600&family=Pacifico&family=Raleway:wght@200;300;400;500&family=Rubik:wght@600;900&family=Source+Sans+Pro:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 52px;
+    color:#000000;
+    font-weight: 700;
+}
+
+h3{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(88, 87, 87);
+}
+
+P{
+    color:rgb(124, 124, 123);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin-top: 10px;
+    
+    text-align: center;
+   
+}
+
+.botones{
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.botones:hover{
+    cursor: pointer;
+    background-color: rgb(39, 39, 39);
+}
+
+section{
+    padding: 30px;
+    overflow: hidden;
+    text-align: center;  
+}
+
+
+
+header{
+    height: 95vh;
+    width: 100%;
+    background: #000000;  
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);
+    background: linear-gradient(to bottom, rgba(67, 67, 67, 0.70), rgba(0, 0, 0, 0.30)),url(../img/header6.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    border-radius: 0 0 1.5% 1.5%;
+   
+}   
+
+header h2{
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 100px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+
+header h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    opacity: 900;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+header p{
+    font-size: 22px;
+    opacity: 900;
+    font-weight: 800;
+    color: white;
+}
+
+
+.logo{
+    border-radius: 50px;
+    width: 100px;
+}
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif; 
+    text-transform: uppercase;
+    margin: 0 0.5rem;
+}
+
+header .nav-link:hover{
+    color: #000000;    
+    background-color: #ffff;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+/*Quienes somos incio*/
+
+.quienessomos{
+    height: 500px;
+    margin: 0;
+}
+
+/*Nuestras Harinas*/
+
+.nuestrasharinas{
+    height: 95vh;
+    background: #000000; 
+    background: -webkit-linear-gradient(to bottom,rgba(33, 33, 33, 0.18),  rgba(180, 180, 180, 0.15)); 
+    background: linear-gradient(to bottom, rgba(33, 33, 33, 0.18), rgba(180, 180, 180, 0.15)); 
+
+    border-radius: 1.5% 1.5% 0 0;
+    padding-bottom: 60px;
+    border-bottom: 1px solid black;
+}
+
+.harinass{
+    display: grid;
+    width: 45%;
+    height: 90%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.sseccionharina{
+    
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.sseccionharina .tradicionales{
+    width: 100%;
+    height: 90%;
+    display:inline-block;
+    background-image: url(../img/tradicionales10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 40%;
+    
+}
+
+.sseccionharina .acondicionadas{
+    width: 100%;
+    height: 90%;
+    display:inline-block;
+    background-image: url(../img/acondicionada11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 40%;
+}
+
+.sseccionharina .especiales{
+    
+    width: 100%;
+    height: 90%;
+    display:inline-block;
+    background-image: url(../img/especiales10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 40%;
+}
+
+.sseccionharina .fraccionado{
+    width: 100%;
+    height: 90%;
+    display:inline-block;
+    background-image: url(../img/fraccionado11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 40%;
+}
+
+.sseccionharina h4{
+    text-transform: uppercase;
+}
+
+/*nutricion animal*/
+
+.nutricionanimal{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 55vh;
+    background-image: url(../img/nutricion12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover ;
+    border-radius: 0% 0% 1.5% 1.5%;
+
+}
+
+.nutricionanimal p{
+    color: #000;
+    font-weight: 900;
+    font-size: 20px;
+    opacity: 9;
+}
+
+/*servicios*/
+
+.servicios{
+    width: 100%;
+    height: 80vh;
+   
+    margin: auto;
+    overflow: hidden;
+
+    border-top: 1px solid black;
+   
+}
+
+.nuestrosservicios{
+    display: flex;
+    width: 80%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.servicios1{
+    width: 45%;
+    height: 90%;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.servicios1 p{
+    text-align: left;
+    font-weight: 900;
+    font-size: 18px;
+    
+}
+
+.servicios1 ul li svg{
+    width: 18px;
+    
+}
+
+.servicios1 ul{
+    margin: 15px;
+    text-align: left;
+    
+}
+
+.servicios1 ul li{
+    margin: 20px;
+    font-size: 18px;
+}
+   
+.servicios2{
+    width: 45%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios2 img{
+   width: 80%;
+   height: 90%;
+   border-radius: 5%;
+   margin-top: 50px;
+}
+
+/*puntos de ventas*/
+
+
+.puntosdeventas{
+    width: 100%;
+    height: 80vh;
+    background: #000000; 
+    background: -webkit-linear-gradient(to bottom,rgba(33, 33, 33, 0.18),  rgba(180, 180, 180, 0.15)); 
+    background: linear-gradient(to bottom, rgba(33, 33, 33, 0.18), rgba(180, 180, 180, 0.15)); 
+
+
+
+    margin: auto;
+    overflow: hidden;
+    border-radius: 1.5% 1.5% 1.5% 1.5%;
+
+    
+}
+
+.puntoslocalizacion{
+    display: flex;
+    width: 80%;
+    height: 75%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.puntosventasimg{
+    width: 45%;
+    height: 100%;
+    margin: auto;
+    margin-top: 40px;
+    overflow: hidden;
+    margin-right: 0;
+
+}
+
+.puntosventasimg img{
+    width: 300px;
+    height: 120%;
+    border-radius: 5%;
+}
+
+.provincias{
+    width: 45%;
+    height: 100%;
+    margin: auto;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.provincias ul{
+    margin: 15px;
+}
+
+.provincias ul li{
+    margin-top: 9px;
+    margin-left: 100px;
+    list-style:disc;
+
+}
+
+.provincias p{
+    text-align: left;
+    margin-left: 120px;
+    font-weight: 800;
+    color: #000000;
+    text-decoration:underline;
+}
+
+/*contacto*/
+
+.contacto{
+    width: 90%;
+    height: 75vh;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.contactoinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 75%;
+    margin: auto;
+    
+    
+}
+
+.infoempresa{
+    width: 30%;
+    height: 70%;
+    margin: auto;
+
+}
+
+.infoempresa svg{
+    width: 18px;
+    margin: 10px 0;
+    
+}
+
+.infoempresa p{
+    text-align: left;
+    display: flex;
+    align-items: center;
+
+}
+
+.formulariocontacto{
+    
+    width: 50%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.forminput{
+   
+    width: 95%;
+    height: 90%;
+    
+}
+
+.forminput input{
+    width: 40%;
+    height: 50px;
+    display: inline-block;
+    margin: 25px 0;
+} 
+
+.forminput input:hover{
+    cursor: pointer;
+}
+
+textarea{
+    width: 80%;
+    height: 50%;
+}
+
+textarea:hover{
+    cursor: pointer;
+}
+
+
+/*footer*/
+
+footer{
+    width: 100%;
+    height: 45vh;
+    background: #000000;  
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);
+    background: linear-gradient(to bottom, rgba(67, 67, 67, 0.9), rgba(0, 0, 0, 0.60)),url(../img/header1.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    border-radius: 2% 2% 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.footer{
+    width: 95%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logofooter{
+   
+    width: 15%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.logofooter img{
+   
+    width: 75%;
+    height: 100%;
+    border-radius: 50%;
+    
+    
+}
+
+.navfooter{
+    
+    width: 15%;
+    height: 90%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.navfooter ul li{
+    margin: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.navfooter ul li a{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    opacity: 8;
+    margin: 1px;
+}
+
+.navfooter ul li a:hover{   
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.infofooter{
+    width: 50%;
+    height: 90%;
+    text-align: center;
+
+}
+
+.infofooter h3{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-bottom: 15px;
+    font-weight: 800;
+    
+}
+.infofooter p{
+    color: rgb(255, 255, 255);
+    
+    font-weight: bolder;
+    font-size: 18px;
+
+
+    
+    
+}
+
+
+@media (max-width:575px){
+
+    /*header*/
+
+    h2{
+        font-size: 25px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+    
+    header h1{
+        font-size: 70px;
+    }
+
+    header h2{
+        font-size: 35px;
+    }
+
+    header p{
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    /*harinas*/
+
+    .nuestrasharinas{
+        width: 100%;
+        height: 1650px;
+    }
+
+    .harinass{
+        width: 90%;
+        height: 350px;
+        display: block; 
+        
+    }    
+
+    .sseccionharina{
+        width: 100%;
+        height: 100%;
+        margin: 25px 0;
+
+    }
+
+    .sseccionharina .tradicionales{
+        border-radius: 50%;
+        
+    }
+
+    .sseccionharina .acondicionadas{
+        border-radius: 50%;
+        
+    }
+
+    .sseccionharina .especiales{
+        border-radius: 50%;
+        
+    }
+
+    .sseccionharina .fraccionado{
+        border-radius: 50%;
+        
+    }
+
+    /*nutricionanimal*/
+  
+    .nutricionanimal p{
+        display: none;
+    }
+
+
+    .nutricionanimal .botones{
+        margin-top: auto;
+    }
+
+    /*servicios*/
+
+    .servicios{
+        height: 580px;
+    }
+
+    .servicios1{
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin: auto;
+
+    }
+
+    .parrafoservicios p{
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+    .servicios1 ul li svg{
+    
+        width: 12px;
+        
+    }
+
+
+    .servicios2{
+        display: none;
+    }
+
+    /*puntosventas*/
+
+    .puntosdeventas{
+        width: 100%;
+        height: 700px;
+    
+    }
+
+    .puntoslocalizacion{
+        width: 90%;
+        display: block;
+    }
+
+    .puntosventasimg{
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+        
+    }
+
+    .puntosventasimg img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .provincias p{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: auto;
+    }
+
+    .provincias ul{
+        display: none;
+    }
+
+    /*contacto*/
+
+    .contacto{
+        width: 100%;
+        height: 500px;
+        padding: 10px 0;
+    }
+
+    .contactoinfo{
+        width: 100%;
+        width: 100%;
+    }
+
+    .formulariocontacto{
+        width: 100%;
+        height: 100%;
+    }
+
+    .forminput input{
+        width: 45%;
+        height: 50px;
+    } 
+
+
+    .infoempresa{
+        display: none;
+    }
+
+    textarea{
+        width: 90%;
+        height: 50%;
+    }
+    
+    /*footer*/
+
+    
+    .footer{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2px;
+    }
+
+    .navfooter{
+        width: 45%;
+        height: 100%;
+    
+    }
+
+    .navfooter ul{
+        height: 100%;
+        width: 100%;
+    }
+
+    .navfooter ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 80%;
+    
+    }
+
+    .infofooter{
+        width: 45%;
+        height: 100%;
+        display: inline-block;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .infofooter p{
+        font-size: 80%;
+    }
+
+
+    .footer .logofooter{
+        display: none;
+    }
+
+}
+
+
+/*transformacion y transition*/
+
+header{
+    filter: grayscale(100%);
+    transition: all 1.5s;
+
+}
+
+header:hover{
+    filter: grayscale(0);
+    transform: scale(1);
+}
+
