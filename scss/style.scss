@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&family=Pacifico&family=Raleway:wght@200;300;400;500&family=Source+Sans+Pro:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&family=Pacifico&family=Raleway:wght@200;300;400;500&family=Rubik:wght@600;900&family=Source+Sans+Pro:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Open+Sans:wght@400;600&family=Pacifico&family=Raleway:wght@200;300;400;500&family=Rubik:wght@600;900&family=Source+Sans+Pro:wght@400;700&display=swap');
-
 @import "variables";
+
+@import "mixin","extend","maps";
+
+
 
 * {
     margin: 0;
@@ -452,17 +455,6 @@ header {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /*footer*/
 
 footer {
@@ -820,7 +812,6 @@ footer {
     }
 
     }
-    
 
 /*transformacion y transition*/
 
@@ -835,3 +826,56 @@ header:hover {
     filter: grayscale(0);
     transform: scale(1);
 }
+
+
+/* inicio seccion del desafio sass2 */
+
+/*mixin*/
+
+
+.cuadrado-1{
+    @include cuadrado (rgb(184, 22, 22), 250px);
+}
+
+.cuadrado-2{
+   @include cuadrado (rgb(247, 242, 1),200px);
+}
+
+.cuadrado-3{
+    @include cuadrado (rgb(19, 80, 19),250px);
+}
+
+/*extend*/
+
+.verde{
+    @extend .botoner;
+    background-color: green;
+}
+
+.amarillo{
+    @extend .botoner;
+    background-color: yellow;
+}
+
+.rojo{
+    @extend .botoner;
+    background-color: red;
+}
+
+/*maps*/
+
+.mapss{
+    h6{
+
+        font-size: 20px;
+        text-align: center;
+        margin: 200px;
+        padding: 15px;
+        text-transform: uppercase;
+        font-family: $fontmonserrat;
+        border-radius: 30px;
+        background-color: map-get($mapColores, "primario");
+    }
+}
+
+/* fin del desafio sass2 */
