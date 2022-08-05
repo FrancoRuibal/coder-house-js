@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&family=Pacifico&family=Raleway:wght@200;300;400;500&family=Source+Sans+Pro:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&family=Pacifico&family=Raleway:wght@200;300;400;500&family=Rubik:wght@600;900&family=Source+Sans+Pro:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Open+Sans:wght@400;600&family=Pacifico&family=Raleway:wght@200;300;400;500&family=Rubik:wght@600;900&family=Source+Sans+Pro:wght@400;700&display=swap");
-.botoner, .verde, .amarillo, .rojo {
+.botoner {
   width: 150px;
   height: 150px;
   border: none;
@@ -35,7 +35,7 @@ h3 {
 
 P {
   color: #7c7c7b;
-  font-size: 15px;
+  font-size: 20px;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   margin-top: 10px;
@@ -116,63 +116,32 @@ header {
 /*Nuestras Harinas*/
 .nuestrasharinas {
   height: 95vh;
-  background: #000000;
-  background: -webkit-linear-gradient(to bottom, rgba(33, 33, 33, 0.18), rgba(180, 180, 180, 0.15));
-  background: linear-gradient(to bottom, rgba(33, 33, 33, 0.18), rgba(180, 180, 180, 0.15));
+  width: 100%;
   border-radius: 1.5% 1.5% 0 0;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
   border-bottom: 1px solid black; }
   .nuestrasharinas .harinass {
     display: grid;
-    width: 45%;
+    width: 90%;
     height: 90%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin: auto;
-    margin-top: 15px; }
-    .nuestrasharinas .harinass .sseccionharina {
-      width: 100%;
-      height: 100%;
+    margin: auto; }
+    .nuestrasharinas .harinass a {
+      width: 60%;
+      height: 90%;
       margin: auto;
-      font-family: 'Rubik', sans-serif; }
-      .nuestrasharinas .harinass .sseccionharina .tradicionales {
+      text-decoration: none;
+      color: #000;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: "Rubik", sans-serif;
+      font-size: 1.3rem; }
+      .nuestrasharinas .harinass a img {
         width: 100%;
-        height: 90%;
-        display: inline-block;
-        background-image: url(../img/tradicionales10.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        border-radius: 40%; }
-      .nuestrasharinas .harinass .sseccionharina .acondicionadas {
-        width: 100%;
-        height: 90%;
-        display: inline-block;
-        background-image: url(../img/acondicionada11.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        border-radius: 40%; }
-      .nuestrasharinas .harinass .sseccionharina .especiales {
-        width: 100%;
-        height: 90%;
-        display: inline-block;
-        background-image: url(../img/especiales10.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        border-radius: 40%; }
-      .nuestrasharinas .harinass .sseccionharina .fraccionado {
-        width: 100%;
-        height: 90%;
-        display: inline-block;
-        background-image: url(../img/fraccionado11.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        border-radius: 40%; }
-      .nuestrasharinas .harinass .sseccionharina h4 {
-        text-transform: uppercase; }
+        height: 300px;
+        margin: 0 auto;
+        border-radius: 1.5%; }
 
 /*nutricion animal*/
 .nutricionanimal {
@@ -187,10 +156,10 @@ header {
   background-size: cover;
   border-radius: 0% 0% 1.5% 1.5%; }
   .nutricionanimal p {
-    color: #000;
+    color: #ffff;
     font-weight: 900;
     font-size: 20px;
-    opacity: 9; }
+    opacity: 20; }
 
 /*puntos de ventas*/
 .puntosdeventas {
@@ -283,7 +252,7 @@ header {
       .servicios .nuestrosservicios .servicios2 img {
         width: 80%;
         height: 90%;
-        border-radius: 5%;
+        border-radius: 3%;
         margin-top: 50px; }
 
 /*contacto*/
@@ -415,23 +384,20 @@ footer {
   /*harinas*/
   .nuestrasharinas {
     width: 100%;
-    height: 1650px; }
+    height: 100%; }
+    .nuestrasharinas p {
+      font-size: 0.8rem; }
     .nuestrasharinas .harinass {
       width: 90%;
-      height: 350px;
-      display: block; }
-      .nuestrasharinas .harinass .sseccionharina {
+      height: 90%;
+      display: block;
+      margin: auto; }
+      .nuestrasharinas .harinass a {
         width: 100%;
-        height: 100%;
-        margin: 25px 0; }
-        .nuestrasharinas .harinass .sseccionharina .tradicionales {
-          border-radius: 50%; }
-        .nuestrasharinas .harinass .sseccionharina .acondicionadas {
-          border-radius: 50%; }
-        .nuestrasharinas .harinass .sseccionharina .especiales {
-          border-radius: 50%; }
-        .nuestrasharinas .harinass .sseccionharina .fraccionado {
-          border-radius: 50%; }
+        height: 100%; }
+        .nuestrasharinas .harinass a img {
+          width: 100%;
+          height: 100%; }
   /*quienessomos*/
   .quienessomos a {
     display: none; }
@@ -529,49 +495,3 @@ header {
 header:hover {
   filter: grayscale(0);
   transform: scale(1); }
-
-/* inicio seccion del desafio sass2 */
-/*mixin*/
-.cuadrado-1 {
-  background-color: #b81616;
-  width: 250px;
-  height: 200px;
-  margin-top: 5px;
-  padding: 10px; }
-
-.cuadrado-2 {
-  background-color: #f7f201;
-  width: 200px;
-  height: 200px;
-  margin-top: 5px;
-  padding: 10px; }
-
-.cuadrado-3 {
-  background-color: #135013;
-  width: 250px;
-  height: 200px;
-  margin-top: 5px;
-  padding: 10px; }
-
-/*extend*/
-.verde {
-  background-color: green; }
-
-.amarillo {
-  background-color: yellow; }
-
-.rojo {
-  background-color: red; }
-
-/*maps*/
-.mapss h6 {
-  font-size: 20px;
-  text-align: center;
-  margin: 200px;
-  padding: 15px;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  border-radius: 30px;
-  background-color: #326dee; }
-
-/* fin del desafio sass2 */

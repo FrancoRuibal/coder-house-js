@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FrancoRuibal/coder-house.git"
+    "url": "git+https://github.com/FrancoRuibal/coder-house.js.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FrancoRuibal/coder-house/issues"
+    "url": "https://github.com/FrancoRuibal/coder-house-js/issues"
   },
-  "homepage": "https://github.com/FrancoRuibal/coder-house#readme",
+  "homepage": "https://github.com/FrancoRuibal/coder-house-js#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.19"

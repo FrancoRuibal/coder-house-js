@@ -31,7 +31,7 @@ h3 {
 
 P {
     color: rgb(124, 124, 123);
-    font-size: 15px;
+    font-size: 20px;
     font-family: $fontmonserrat;
     font-weight: 900;
     margin-top: 10px;
@@ -137,81 +137,42 @@ header {
 
 .nuestrasharinas {
     height: 95vh;
-    background: #000000;
-    background: -webkit-linear-gradient(to bottom, rgba(33, 33, 33, 0.18), rgba(180, 180, 180, 0.15));
-    background: linear-gradient(to bottom, rgba(33, 33, 33, 0.18), rgba(180, 180, 180, 0.15));
-
+    width: 100%;
     border-radius: 1.5% 1.5% 0 0;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     border-bottom: 1px solid black;
 
     .harinass {
         display: grid;
-        width: 45%;
+        width: 90%;
         height: 90%;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         margin: auto;
-        margin-top: 15px;
 
-        .sseccionharina {
 
-            width: 100%;
-            height: 100%;
+        a{
+            width: 60%;
+            height: 90%;
             margin: auto;
-            font-family: 'Rubik', sans-serif;
-
-            .tradicionales {
+            text-decoration: none;
+            color: #000;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: $fontrubik;
+            font-size: 1.3rem;
+           
+    
+            img{
                 width: 100%;
-                height: 90%;
-                display: inline-block;
-                background-image: url(../img/tradicionales10.jpg);
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: contain;
-                border-radius: 40%;
-
+                height: 300px;
+                margin: 0 auto;
+                border-radius: 1.5%;
+                
+               
             }
-
-            .acondicionadas {
-                width: 100%;
-                height: 90%;
-                display: inline-block;
-                background-image: url(../img/acondicionada11.jpg);
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: contain;
-                border-radius: 40%;
-            }
-
-            .especiales {
-
-                width: 100%;
-                height: 90%;
-                display: inline-block;
-                background-image: url(../img/especiales10.jpg);
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: contain;
-                border-radius: 40%;
-            }
-
-            .fraccionado {
-                width: 100%;
-                height: 90%;
-                display: inline-block;
-                background-image: url(../img/fraccionado11.jpg);
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: contain;
-                border-radius: 40%;
-            }
-
-            h4 {
-                text-transform: uppercase;
-            }
-
         }
+      
     }
 }
 
@@ -230,10 +191,11 @@ header {
     border-radius: 0% 0% 1.5% 1.5%;
 
     p {
-        color: #000;
+        color: #ffff;
+
         font-weight: 900;
         font-size: 20px;
-        opacity: 9;
+        opacity: 20;
     }
 
 }
@@ -368,7 +330,7 @@ header {
             img {
                 width: 80%;
                 height: 90%;
-                border-radius: 5%;
+                border-radius: 3%;
                 margin-top: 50px;
             }
 
@@ -591,40 +553,31 @@ footer {
 
     .nuestrasharinas {
         width: 100%;
-        height: 1650px;
+        height: 100%;
+
+        p{
+            font-size: 0.8rem;
+        }
 
         .harinass {
             width: 90%;
-            height: 350px;
+            height: 90%;
             display: block;
+            margin: auto;
 
-
-            .sseccionharina {
+            a{
                 width: 100%;
                 height: 100%;
-                margin: 25px 0;
-
-                .tradicionales {
-                    border-radius: 50%;
-
-                }
-
-                .acondicionadas {
-                    border-radius: 50%;
-
-                }
-
-                .especiales {
-                    border-radius: 50%;
-
-                }
-
-                .fraccionado {
-                    border-radius: 50%;
-
+                
+                img{
+                    width: 100%;
+                    height: 100%;
+                   
                 }
 
             }
+
+        
 
         }
     }
@@ -826,56 +779,3 @@ header:hover {
     filter: grayscale(0);
     transform: scale(1);
 }
-
-
-/* inicio seccion del desafio sass2 */
-
-/*mixin*/
-
-
-.cuadrado-1{
-    @include cuadrado (rgb(184, 22, 22), 250px);
-}
-
-.cuadrado-2{
-   @include cuadrado (rgb(247, 242, 1),200px);
-}
-
-.cuadrado-3{
-    @include cuadrado (rgb(19, 80, 19),250px);
-}
-
-/*extend*/
-
-.verde{
-    @extend .botoner;
-    background-color: green;
-}
-
-.amarillo{
-    @extend .botoner;
-    background-color: yellow;
-}
-
-.rojo{
-    @extend .botoner;
-    background-color: red;
-}
-
-/*maps*/
-
-.mapss{
-    h6{
-
-        font-size: 20px;
-        text-align: center;
-        margin: 200px;
-        padding: 15px;
-        text-transform: uppercase;
-        font-family: $fontmonserrat;
-        border-radius: 30px;
-        background-color: map-get($mapColores, "primario");
-    }
-}
-
-/* fin del desafio sass2 */
