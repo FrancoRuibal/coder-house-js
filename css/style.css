@@ -389,6 +389,8 @@ footer {
   /*quienessomos*/
   .quienessomos a {
     display: none; }
+  .quienessomos p {
+    font-size: 1rem; }
   /*nutricionanimal*/
   .nutricionanimal p {
     display: none; }
@@ -428,7 +430,8 @@ footer {
         width: 100%;
         height: auto;
         text-align: center;
-        margin: auto; }
+        margin: auto;
+        font-size: 1rem; }
       .puntosdeventas .puntoslocalizacion .provincias ul {
         display: none; }
   /*contacto*/
