@@ -356,6 +356,197 @@ footer {
         font-weight: bolder;
         font-size: 18px; }
 
+@media (max-width: 1270px) {
+  .quienessomos p {
+    font-size: 1.12rem; }
+  .nuestrasharinas {
+    width: 100%;
+    height: 100%; }
+    .nuestrasharinas p {
+      font-size: 1rem; }
+    .nuestrasharinas .harinass {
+      width: 100%;
+      height: 85%;
+      margin: auto; }
+      .nuestrasharinas .harinass a {
+        width: 85%;
+        height: 75%; }
+        .nuestrasharinas .harinass a img {
+          width: 100%;
+          height: 100%; }
+  .puntosdeventas {
+    width: 100%;
+    height: 90vh; }
+    .puntosdeventas .puntoslocalizacion {
+      width: 50%;
+      height: 90%; }
+      .puntosdeventas .puntoslocalizacion .puntosventasimg {
+        width: 50%;
+        height: 100%;
+        margin: auto;
+        margin-top: 10px; }
+        .puntosdeventas .puntoslocalizacion .puntosventasimg img {
+          width: 90%;
+          height: 90%; }
+      .puntosdeventas .puntoslocalizacion .provincias {
+        width: 50%;
+        height: 100%;
+        margin: auto; }
+        .puntosdeventas .puntoslocalizacion .provincias ul {
+          margin: 5px; }
+          .puntosdeventas .puntoslocalizacion .provincias ul li {
+            margin-top: 6px;
+            margin-left: 60px;
+            font-size: 0.95rem; }
+        .puntosdeventas .puntoslocalizacion .provincias p {
+          font-size: 0.95rem; }
+  .servicios {
+    width: 100%;
+    height: 90vh; }
+    .servicios .nuestrosservicios {
+      width: 90%;
+      height: 80%; }
+      .servicios .nuestrosservicios .servicios1 {
+        width: 50%;
+        height: 100%; }
+        .servicios .nuestrosservicios .servicios1 p {
+          font-size: 1.1rem; }
+      .servicios .nuestrosservicios ul {
+        margin: 5px; }
+        .servicios .nuestrosservicios ul li {
+          margin: 15px 20px;
+          font-size: 1.05rem; }
+      .servicios .nuestrosservicios .servicios2 {
+        width: 50%;
+        height: 100%; }
+        .servicios .nuestrosservicios .servicios2 img {
+          width: 82%;
+          height: 65%; }
+  .contacto {
+    width: 95%;
+    height: 80vh; }
+    .contacto .contactoinfo .infoempresa {
+      width: 50%;
+      height: 70%; }
+      .contacto .contactoinfo .infoempresa svg {
+        margin: 10px 10px; }
+      .contacto .contactoinfo .infoempresa p {
+        font-size: 1.05rem; }
+  footer {
+    width: 100%;
+    height: 20rem;
+    margin: auto; }
+    footer .footer {
+      width: 95%;
+      height: 95%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      footer .footer .logofooter img {
+        width: 8rem;
+        height: 8rem; }
+      footer .footer .infofooter {
+        width: 30%;
+        height: 100%;
+        display: inline-block;
+        margin: auto;
+        margin-top: 1.2rem; }
+        footer .footer .infofooter p {
+          font-size: 1rem; } }
+
+@media (max-width: 1130px) {
+  header h2 {
+    font-size: 2.5rem; }
+  header h1 {
+    font-size: 5.5rem; }
+  header p {
+    font-size: 1.3rem; }
+  .quienessomos p {
+    font-size: 1.1rem; }
+  .puntosdeventas {
+    width: 100%;
+    height: 91vh; }
+    .puntosdeventas .puntoslocalizacion {
+      width: 50%;
+      height: 100%; }
+      .puntosdeventas .puntoslocalizacion .puntosventasimg {
+        width: 50%;
+        height: 100%;
+        margin: auto;
+        margin-top: 10px; }
+        .puntosdeventas .puntoslocalizacion .puntosventasimg img {
+          width: 85%;
+          height: 80%; }
+      .puntosdeventas .puntoslocalizacion .provincias {
+        width: 50%;
+        height: 100%;
+        margin: auto; }
+        .puntosdeventas .puntoslocalizacion .provincias ul {
+          margin: 5px; }
+          .puntosdeventas .puntoslocalizacion .provincias ul li {
+            margin-top: 6px;
+            margin-left: 60px;
+            font-size: 0.9rem; }
+        .puntosdeventas .puntoslocalizacion .provincias p {
+          font-size: 0.65rem; }
+  .servicios {
+    width: 100%;
+    height: 90vh;
+    margin: 5px; }
+    .servicios .nuestrosservicios {
+      width: 95%;
+      height: 80%;
+      margin: 0 20px; }
+      .servicios .nuestrosservicios .servicios1 {
+        width: 55%;
+        height: 100%;
+        margin: 0 15px; }
+        .servicios .nuestrosservicios .servicios1 .parrafoservicios p {
+          font-size: 1rem; }
+      .servicios .nuestrosservicios ul {
+        margin: 5px; }
+        .servicios .nuestrosservicios ul li {
+          margin: 15px 20px;
+          font-size: 1.05rem; }
+      .servicios .nuestrosservicios .servicios2 {
+        width: 45%;
+        height: 100%; }
+        .servicios .nuestrosservicios .servicios2 img {
+          width: 82%;
+          height: 65%; }
+  .contacto {
+    width: 95%;
+    height: 82vh; }
+    .contacto .contactoinfo .infoempresa {
+      width: 50%;
+      height: 70%; }
+      .contacto .contactoinfo .infoempresa svg {
+        width: 1rem;
+        margin: 10px 10px; }
+      .contacto .contactoinfo .infoempresa p {
+        font-size: 1rem; }
+  footer {
+    width: 100%;
+    height: 20rem;
+    margin: auto; }
+    footer .footer {
+      width: 95%;
+      height: 95%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      footer .footer .logofooter img {
+        width: 8rem;
+        height: 8rem; }
+      footer .footer .infofooter {
+        width: 30%;
+        height: 100%;
+        display: inline-block;
+        margin: auto;
+        margin-top: 1.2rem; }
+        footer .footer .infofooter p {
+          font-size: 0.95rem; } }
+
 @media (max-width: 575px) {
   * h2 {
     font-size: 25px; }
@@ -387,47 +578,66 @@ footer {
           width: 100%;
           height: 100%; }
   /*quienessomos*/
-  .quienessomos a {
-    display: none; }
-  .quienessomos p {
-    font-size: 1rem; }
+  .quienessomos {
+    width: 100%;
+    height: 70vh; }
+    .quienessomos p {
+      margin-top: 20px;
+      font-size: 1rem; }
   /*nutricionanimal*/
   .nutricionanimal p {
+    margin-top: 1px;
     font-size: 0.8rem;
-    color: #000;
-    margin-top: -10px; }
+    color: #000; }
   .nutricionanimal .botones {
+    width: 75%;
     margin: 1rem;
-    padding: 1rem; }
+    padding: 0.9rem;
+    font-size: 12px; }
   /*servicios*/
   .servicios {
-    height: 55rem; }
-    .servicios .nuestrosservicios .servicios1 {
+    width: 100%;
+    height: 90vh;
+    margin: 1px; }
+    .servicios .nuestrosservicios {
       width: 100%;
       height: 100%;
       display: block;
-      margin: auto; }
-      .servicios .nuestrosservicios .servicios1 .parrafoservicios p {
-        font-size: 0.8rem;
-        text-align: center; }
-      .servicios .nuestrosservicios .servicios1 ul li svg {
-        width: 12px; }
-    .servicios .nuestrosservicios .servicios2 {
-      display: none; }
+      margin: 1px; }
+      .servicios .nuestrosservicios .servicios1 {
+        width: 100%;
+        height: 50%;
+        margin: 5px; }
+        .servicios .nuestrosservicios .servicios1 .parrafoservicios p {
+          font-size: 0.9rem;
+          text-align: center; }
+        .servicios .nuestrosservicios .servicios1 ul {
+          margin: 1px; }
+          .servicios .nuestrosservicios .servicios1 ul li {
+            margin-top: 10px;
+            font-size: 0.95rem; }
+            .servicios .nuestrosservicios .servicios1 ul li svg {
+              margin: 1px;
+              width: 15px; }
+      .servicios .nuestrosservicios .servicios2 {
+        width: 100%;
+        height: 45%; }
+        .servicios .nuestrosservicios .servicios2 img {
+          width: 85%;
+          height: 60%; }
   /*puntosventas*/
   .puntosdeventas {
     width: 100%;
-    height: 700px; }
+    height: 80vh; }
     .puntosdeventas .puntoslocalizacion {
       width: 90%;
       display: block; }
       .puntosdeventas .puntoslocalizacion .puntosventasimg {
         width: 100%;
-        margin: auto;
-        margin-top: 10px; }
+        height: 90%; }
         .puntosdeventas .puntoslocalizacion .puntosventasimg img {
-          width: 100%;
-          height: 100%; }
+          width: 90%;
+          height: 90%; }
       .puntosdeventas .puntoslocalizacion .provincias p {
         width: 100%;
         height: auto;
