@@ -52,7 +52,7 @@ section {
 
 /*header*/
 header {
-  height: 95vh;
+  height: 100vh;
   width: 100%;
   background: #000000;
   background: -webkit-linear-gradient(to bottom, #434343, #000000);
@@ -154,8 +154,8 @@ header {
   width: 100%;
   height: 85vh;
   background: #000000;
-  background: -webkit-linear-gradient(to bottom, rgba(33, 33, 33, 0.18), rgba(180, 180, 180, 0.15));
-  background: linear-gradient(to bottom, rgba(33, 33, 33, 0.18), rgba(180, 180, 180, 0.15));
+  background: -webkit-linear-gradient(to bottom, rgba(33, 33, 33, 0.055), rgba(180, 180, 180, 0.15));
+  background: linear-gradient(to bottom, rgba(33, 33, 33, 0.055), rgba(180, 180, 180, 0.15));
   margin: auto;
   overflow: hidden;
   border-radius: 1.5% 1.5% 1.5% 1.5%; }
