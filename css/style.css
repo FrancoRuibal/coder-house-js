@@ -634,18 +634,22 @@ footer {
       display: block; }
       .puntosdeventas .puntoslocalizacion .puntosventasimg {
         width: 100%;
-        height: 90%; }
+        height: 85%; }
         .puntosdeventas .puntoslocalizacion .puntosventasimg img {
           width: 90%;
           height: 90%; }
-      .puntosdeventas .puntoslocalizacion .provincias p {
+      .puntosdeventas .puntoslocalizacion .provincias {
         width: 100%;
-        height: auto;
-        text-align: center;
-        margin: auto;
-        font-size: 1rem; }
-      .puntosdeventas .puntoslocalizacion .provincias ul {
-        display: none; }
+        height: 100%;
+        margin-top: 2px; }
+        .puntosdeventas .puntoslocalizacion .provincias p {
+          width: 100%;
+          height: auto;
+          text-align: center;
+          margin: auto;
+          font-size: 0.9rem; }
+        .puntosdeventas .puntoslocalizacion .provincias ul {
+          display: none; }
   /*contacto*/
   .contacto {
     width: 100%;
