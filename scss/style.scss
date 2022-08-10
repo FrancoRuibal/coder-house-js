@@ -358,8 +358,9 @@ header {
             margin: auto;
 
             svg {
-                width: 18px;
-                margin: 10px 0;
+                width: 20px;
+                height: 25px;
+                margin: 15px 10px;
 
             }
 
@@ -367,6 +368,7 @@ header {
                 text-align: left;
                 display: flex;
                 align-items: center;
+                font-size: 1.1rem;
 
             }
 
@@ -515,12 +517,12 @@ footer {
 
 }
 
-@media (max-width:1270px) {
+@media (max-width:1600px) {
 
     .quienessomos {
 
         p {
-            font-size: 1.12rem;
+            font-size: 1.11rem;
         }
     }
 
@@ -528,25 +530,28 @@ footer {
 
 
         width: 100%;
-        height: 100%;
+        height: 100vh;
 
         p {
-            font-size: 1rem;
+            font-size: 1.1rem;
         }
 
         .harinass {
-            width: 100%;
-            height: 85%;
-
-            margin: auto;
+            width: 90%;
+            height: 90%;
 
             a {
-                width: 85%;
-                height: 75%;
+                width: 58%;
+                height: 76%;
+                margin-top: 0px;
+
 
                 img {
                     width: 100%;
                     height: 100%;
+                    font-size: 0.5rem;
+
+                
 
                 }
 
@@ -566,7 +571,7 @@ footer {
             height: 90%;
 
             .puntosventasimg {
-                width: 50%;
+                width: 40%;
                 height: 100%;
                 margin: auto;
                 margin-top: 10px;
@@ -688,12 +693,12 @@ footer {
 
     footer {
         width: 100%;
-        height: 20rem;
+        height: 45vh;
         margin: auto;
 
         .footer {
             width: 95%;
-            height: 95%;
+            height: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -713,7 +718,7 @@ footer {
                 height: 100%;
                 display: inline-block;
                 margin: auto;
-                margin-top: 1.2rem;
+                margin-top: 1rem;
 
                 p {
                     font-size: 1rem;
@@ -1001,13 +1006,22 @@ footer {
 
     .quienessomos {
         width: 100%;
-        height: 70vh;
+        height: 75vh;
 
 
         p {
-            margin-top: 20px;
+            margin-top: 10px;
             font-size: 1rem;
         }
+
+        a{
+           
+
+            .botones{
+                margin-top: 2px;
+                font-size: 0.8rem;
+            }
+       }
     }
 
     /*nutricionanimal*/
@@ -1035,7 +1049,7 @@ footer {
 
     .servicios {
         width: 100%;
-        height: 90vh;
+        height: 95vh;
         margin: 1px;
 
         .nuestrosservicios {
@@ -1051,7 +1065,7 @@ footer {
 
 
                 .parrafoservicios {
-
+                    
 
                     p {
                         font-size: 0.9rem;
@@ -1062,6 +1076,7 @@ footer {
 
                 ul {
                     margin: 1px;
+                    margin-top: 1px;
 
                     li {
                         margin-top: 10px;
@@ -1084,6 +1099,7 @@ footer {
 
                 width: 100%;
                 height: 45%;
+                margin-top: 2rem;
 
                 img {
 
