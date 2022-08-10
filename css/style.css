@@ -457,26 +457,49 @@ footer {
         footer .footer .infofooter p {
           font-size: 1rem; } }
 
-@media (max-width: 1250px) {
+@media (max-width: 1251px) {
   header h2 {
+    margin-top: 3rem;
     font-size: 2.5rem; }
   header h1 {
+    margin-top: 2rem;
     font-size: 5.5rem; }
   header p {
     font-size: 1.3rem; }
   .quienessomos p {
     font-size: 1.1rem; }
+  .nuestrasharinas {
+    width: 100%;
+    height: 120vh; }
+    .nuestrasharinas p {
+      font-size: 1.1rem; }
+    .nuestrasharinas .harinass {
+      width: 90%;
+      height: 90%; }
+      .nuestrasharinas .harinass a {
+        width: 65%;
+        height: 75%;
+        margin-top: 0px; }
+        .nuestrasharinas .harinass a img {
+          width: 100%;
+          height: 100%;
+          font-size: 0.5rem; }
+  .nutricionanimal p {
+    font-size: 1rem; }
+  .nutricionanimal .botones {
+    margin-top: 2px;
+    font-size: 0.8rem; }
   .puntosdeventas {
     width: 100%;
-    height: 91vh; }
+    height: 95vh; }
     .puntosdeventas .puntoslocalizacion {
       width: 50%;
       height: 100%; }
       .puntosdeventas .puntoslocalizacion .puntosventasimg {
-        width: 50%;
-        height: 100%;
+        width: 45%;
+        height: 95%;
         margin: auto;
-        margin-top: 10px; }
+        margin-top: 5px; }
         .puntosdeventas .puntoslocalizacion .puntosventasimg img {
           width: 85%;
           height: 80%; }
@@ -485,16 +508,16 @@ footer {
         height: 100%;
         margin: auto; }
         .puntosdeventas .puntoslocalizacion .provincias ul {
-          margin: 5px; }
+          margin: 3px; }
           .puntosdeventas .puntoslocalizacion .provincias ul li {
-            margin-top: 6px;
+            margin-top: 4px;
             margin-left: 60px;
-            font-size: 0.9rem; }
+            font-size: 0.88rem; }
         .puntosdeventas .puntoslocalizacion .provincias p {
           font-size: 0.65rem; }
   .servicios {
     width: 100%;
-    height: 90vh;
+    height: 95vh;
     margin: 5px; }
     .servicios .nuestrosservicios {
       width: 95%;
@@ -512,14 +535,14 @@ footer {
           margin: 15px 20px;
           font-size: 1.05rem; }
       .servicios .nuestrosservicios .servicios2 {
-        width: 45%;
+        width: 40%;
         height: 100%; }
         .servicios .nuestrosservicios .servicios2 img {
           width: 82%;
           height: 65%; }
   .contacto {
     width: 95%;
-    height: 82vh; }
+    height: 95vh; }
     .contacto .contactoinfo .infoempresa {
       width: 50%;
       height: 70%; }
@@ -534,19 +557,28 @@ footer {
     margin: auto; }
     footer .footer {
       width: 95%;
-      height: 95%;
+      height: 100%;
       display: flex;
       justify-content: center;
       align-items: center; }
       footer .footer .logofooter img {
         width: 8rem;
         height: 8rem; }
+      footer .footer .navfooter {
+        width: 15%;
+        height: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: center; }
+        footer .footer .navfooter ul li {
+          height: 100%;
+          margin: 15px; }
       footer .footer .infofooter {
         width: 30%;
         height: 100%;
         display: inline-block;
         margin: auto;
-        margin-top: 1.2rem; }
+        margin-top: 1rem; }
         footer .footer .infofooter p {
           font-size: 0.95rem; } }
 
